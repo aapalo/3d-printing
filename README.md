@@ -1,6 +1,19 @@
 ## 3d-printing
 My notes, tips, and setup for 3d printing
 
+### Table of contents
+- [Printer: Artillery Genius](#printer--artillery-genius)
+- [Current mods/software in use](#current-mods-software-in-use)
+  * [Hardware](#hardware)
+  * [Software](#software)
+- [Leveling process](#leveling-process)
+- [Replacement parts](#replacement-parts)
+- [Misc tips](#misc-tips)
+- [Useful links](#useful-links)
+
+<tiny><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></tiny>
+
+
 ## Printer: Artillery Genius
 - build size 220\*220\*250 mm
 - direct drive
@@ -9,7 +22,7 @@ My notes, tips, and setup for 3d printing
   - 24V
   - kraken heatbreak, e3d volcano nozzle & block, nt100 thermistor
 
-## Current mods/software in use 
+## Current mods/software in use
 ### Hardware
 - Raspberry Pi 3 Model B Rev 1.2
 - 3DTouch leveling sensor
@@ -23,14 +36,14 @@ My notes, tips, and setup for 3d printing
   - bed cable strain relief, (https://www.prusaprinters.org/prints/55642-genius-zx-adjustable-bed-cable-strain-relief)
   - filament dust filter, (https://www.thingiverse.com/thing:190118)
   - cable chain
-- Soon: 
+- Soon:
   - ADXL345 accelerometer, (https://www.klipper3d.org/Measuring_Resonances.html)
   - Improvements for Z-wobbling: miagi, cobra?
 ### Software
 - [Klipper](https://www.klipper3d.org/Overview.html)
   - pressure advance, input shaping, auto bed leveling
   - [Clank's config used as the base](https://github.com/Clank50AE/Clanks-Klipper-Configs)
-- [Mainsail](https://docs.mainsail.xyz/) 
+- [Mainsail](https://docs.mainsail.xyz/)
 - [SuperSlicer](https://github.com/supermerill/SuperSlicer/releases)
 
 
@@ -50,3 +63,11 @@ My notes, tips, and setup for 3d printing
 - [Tape out the 5V line from Pi to mainboard](https://community.octoprint.org/t/put-tape-on-the-5v-pin-why-and-how/13574)
 - detach the 2-wired reset connector between TFT and mainboard: when flashing firmware, keep the reset button pressed to keep the TFT off
 - PETG: apply gluestick to bed to help with adhesion, increase the gap between nozzle and bed, use a higher bed temperature (60->80)
+
+## Useful links
+- [Setting up your new Artillery 3D printer](https://artillery.n3t.ro/setup.html)
+- [Teaching Tech 3D Printer Calibration](https://teachingtechyt.github.io/calibration.html)
+
+## Calibration flowchart
+Flowchart was done using [Mermaid](https://mermaid-js.github.io/mermaid-live-editor/).
+![](./mermaid.png)

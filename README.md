@@ -10,6 +10,8 @@ My notes, tips, and setup for 3d printing
 - [Replacement parts](#replacement-parts)
 - [Misc tips](#misc-tips)
 - [Useful links](#useful-links)
+- [Calibration flowchart](#calibration-flowchart)
+- [Cobra versions](#cobra-versions)
 
 <tiny><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></tiny>
 
@@ -71,3 +73,16 @@ My notes, tips, and setup for 3d printing
 ## Calibration flowchart
 Flowchart was done using [Mermaid](https://mermaid-js.github.io/mermaid-live-editor/).
 ![](./mermaid.png)
+
+
+## Cobra versions
+
+| Author 	| Link 	| Genius 	| SW 	| Extra rod 	|  	|
+|-	|-	|:-:	|:-:	|:-:	|-	|
+| Maalie 	| https://www.thingiverse.com/thing:4734286 	| x 	|  	| - 	|  	|
+| McAbbe 	| https://www.thingiverse.com/thing:4808040 	|  	| x 	| x 	|  	|
+| papstFish 	| https://www.thingiverse.com/thing:4734390 	|  	| x 	| x 	|  	|
+| pseudo6626 	| https://www.thingiverse.com/thing:4725503 	|  	| x 	| - 	|  	|
+| 3DChanh 	| https://www.thingiverse.com/thing:4375609 	|  	| x 	|  	|  	|
+|  	|  	|  	|  	|  	|  	|
+|  	|  	|  	|  	|  	|  	|

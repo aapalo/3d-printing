@@ -8,6 +8,7 @@ My notes, tips, and setup for 3d printing
   * [Software](#software)
 - [Leveling process](#leveling-process)
 - [Replacement parts](#replacement-parts)
+- [Printing with PETG](#printing-with-petg)
 - [Misc tips](#misc-tips)
 - [Useful links](#useful-links)
 - [Calibration flowchart](#calibration-flowchart)
@@ -57,14 +58,20 @@ My notes, tips, and setup for 3d printing
 ## Replacement parts
 - nozzle: volcano
   - aliexpress: trianglelabs or mellow
+- heat block: volcano
 - heatbreak
   - if the cooler plate has two holes: smooth heatbreak, "kraken" style
 
+## Printing with PETG
+- spread gluestick to bed, dilute with water if needed
+- increase the gap between nozzle and bed 
+- bed temperature: first layer 80C, others 70C
+- nozzle temperature >230
+- decrease part cooling
 
 ## Misc tips
 - [Tape out the 5V line from Pi to mainboard](https://community.octoprint.org/t/put-tape-on-the-5v-pin-why-and-how/13574)
-- detach the 2-wired reset connector between TFT and mainboard: when flashing firmware, keep the reset button pressed to keep the TFT off
-- PETG: apply gluestick to bed to help with adhesion, increase the gap between nozzle and bed, use a higher bed temperature (60->80)
+- detach the 2-wired reset connector between TFT and mainboard: when flashing (Marlin) firmware, keep the reset button pressed to keep the TFT off
 
 ## Useful links
 - [Setting up your new Artillery 3D printer](https://artillery.n3t.ro/setup.html)
@@ -74,15 +81,12 @@ My notes, tips, and setup for 3d printing
 Flowchart was done using [Mermaid](https://mermaid-js.github.io/mermaid-live-editor/).
 ![](./mermaid.png)
 
-
 ## Cobra versions
 
-| Author 	| Link 	| Genius 	| SW 	| Extra rod 	|  	|
-|-	|-	|:-:	|:-:	|:-:	|-	|
-| Maalie 	| https://www.thingiverse.com/thing:4734286 	| x 	|  	| - 	|  	|
-| McAbbe 	| https://www.thingiverse.com/thing:4808040 	|  	| x 	| x 	|  	|
-| papstFish 	| https://www.thingiverse.com/thing:4734390 	|  	| x 	| x 	|  	|
-| pseudo6626 	| https://www.thingiverse.com/thing:4725503 	|  	| x 	| - 	|  	|
-| 3DChanh 	| https://www.thingiverse.com/thing:4375609 	|  	| x 	|  	|  	|
-|  	|  	|  	|  	|  	|  	|
-|  	|  	|  	|  	|  	|  	|
+| Author 	| Link 	| Genius 	| SW 	| Extra rod 	|
+|-	|-	|:-:	|:-:	|:-:	|
+| Maalie 	| https://www.thingiverse.com/thing:4734286 	| x 	|  	| - 	|
+| McAbbe 	| https://www.thingiverse.com/thing:4808040 	|  	| x 	| x 	|
+| papstFish 	| https://www.thingiverse.com/thing:4734390 	|  	| x 	| x 	|
+| pseudo6626 	| https://www.thingiverse.com/thing:4725503 	|  	| x 	| - 	|
+| 3DChanh: "Stage 1 Z-Axis Brace" 	| https://www.thingiverse.com/thing:4375609 	|  	| x 	|  	|

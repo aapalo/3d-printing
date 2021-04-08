@@ -5,6 +5,7 @@ My notes, tips, and setup for 3d printing
 - [Printer: Artillery Genius](#printer--artillery-genius)
 - [Current mods/software in use](#current-mods-software-in-use)
   * [Hardware](#hardware)
+  * [Printed mods](#printed-mods)
   * [Software](#software)
 - [Leveling process](#leveling-process)
 - [Replacement parts](#replacement-parts)
@@ -22,15 +23,17 @@ My notes, tips, and setup for 3d printing
 - direct drive
 - bed max temperature 130C
 - hot end
-  - 24V
-  - kraken heatbreak, e3d volcano nozzle & block, nt100 thermistor
+  - 24V, kraken heatbreak, e3d volcano nozzle & block, nt100 thermistor
 
 ## Current mods/software in use
 ### Hardware
 - Raspberry Pi 3 Model B Rev 1.2
 - 3DTouch leveling sensor
-- mellow's nozzle
-- printed mods
+- mellow nozzle
+- full-metal heatbreak
+- Bigtreetech TMC2209 v1.2 stepper drivers
+
+### Printed mods
   - fan shroud, (https://www.thingiverse.com/thing:3972011)
     - mount and calibration disk, (https://www.thingiverse.com/thing:3716043)
   - z rod supports, (https://www.thingiverse.com/thing:4444589)
@@ -41,7 +44,10 @@ My notes, tips, and setup for 3d printing
   - cable chain
 - Soon:
   - ADXL345 accelerometer, (https://www.klipper3d.org/Measuring_Resonances.html)
-  - Improvements for Z-wobbling: miagi, cobra?
+- At some point, maybe:
+  - Improvements for Z-wobbling: miagi, cobra
+  - PEI sheet
+
 ### Software
 - [Klipper](https://www.klipper3d.org/Overview.html)
   - pressure advance, input shaping, auto bed leveling
@@ -53,7 +59,7 @@ My notes, tips, and setup for 3d printing
 ## Leveling process
 - heat up the bed and wait for a few minutes
 - take A5 sized copy paper
-- close the gap between the nozzle and the bed until you can still move the paper by pulling, but can't move the paper by pushing
+- close the gap between the nozzle and the bed until you can still move the paper by pulling, but can't move the paper by pushing without it curling up
 
 ## Replacement parts
 - nozzle: volcano
@@ -66,12 +72,12 @@ My notes, tips, and setup for 3d printing
 - spread gluestick to bed, dilute with water if needed
 - increase the gap between nozzle and bed 
 - bed temperature: first layer 80C, others 70C
-- nozzle temperature >230
+- nozzle temperature >230C
 - decrease part cooling
 
 ## Misc tips
 - [Tape out the 5V line from Pi to mainboard](https://community.octoprint.org/t/put-tape-on-the-5v-pin-why-and-how/13574)
-- detach the 2-wired reset connector between TFT and mainboard: when flashing (Marlin) firmware, keep the reset button pressed to keep the TFT off
+- Detach the 2-wired reset connector between TFT and mainboard: when flashing (Marlin) firmware, keep the reset button pressed to keep the TFT off
 
 ## Useful links
 - [Setting up your new Artillery 3D printer](https://artillery.n3t.ro/setup.html)

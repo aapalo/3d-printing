@@ -32,6 +32,11 @@ My notes, tips, and setup for 3d printing
 - mellow nozzle
 - full-metal heatbreak
 - Bigtreetech TMC2209 v1.2 stepper drivers
+- Soon:
+  - ADXL345 accelerometer, (https://www.klipper3d.org/Measuring_Resonances.html)
+- At some point, maybe:
+  - Improvements for Z-wobbling: miagi, cobra
+  - PEI sheet
 
 ### Printed mods
   - fan shroud, (https://www.thingiverse.com/thing:3972011)
@@ -42,11 +47,6 @@ My notes, tips, and setup for 3d printing
   - bed cable strain relief, (https://www.prusaprinters.org/prints/55642-genius-zx-adjustable-bed-cable-strain-relief)
   - filament dust filter, (https://www.thingiverse.com/thing:190118)
   - cable chain
-- Soon:
-  - ADXL345 accelerometer, (https://www.klipper3d.org/Measuring_Resonances.html)
-- At some point, maybe:
-  - Improvements for Z-wobbling: miagi, cobra
-  - PEI sheet
 
 ### Software
 - [Klipper](https://www.klipper3d.org/Overview.html)

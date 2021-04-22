@@ -1,5 +1,5 @@
 # ADXL345 accelerometer mount for Artillery Genius/Sidewinder
-- Files also available in [Thingiverse](https://www.thingiverse.com/)
+- Files also available in [Thingiverse](https://www.thingiverse.com/thing:4836162)
 - Meant to be used for [Klipper's input shaping](https://www.klipper3d.org/Measuring_Resonances.html )
 - Designed with [OpenSCAD](https://openscad.org/cheatsheet/), see also `./adxl.scad`
 

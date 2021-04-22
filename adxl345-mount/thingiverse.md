@@ -10,4 +10,4 @@ Provided stls (they have different distances between the outer holes):
 - [Sidewinder X1 hara74](https://www.thingiverse.com/thing:3945539)
   - `x1_hara74_adxl.stl`
 
-See (https://github.com/aapalo/3d-printing/adxl345-mount/) for more info and files (including the `adxl.scad`).
+See [my github](https://github.com/aapalo/3d-printing/adxl345-mount/) for more info and files (including the `adxl.scad`).

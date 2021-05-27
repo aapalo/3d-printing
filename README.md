@@ -3,7 +3,7 @@ My notes, tips, and setup for 3d printing
 
 ### Table of contents
 - [Printer: Artillery Genius](#printer--artillery-genius)
-- [Current mods/software in use](#current-mods-software-in-use)
+- [Current mods/software in use](#current-modssoftware-in-use)
   * [Hardware](#hardware)
   * [Printed mods](#printed-mods)
   * [Software](#software)
@@ -31,12 +31,14 @@ My notes, tips, and setup for 3d printing
 - 3DTouch leveling sensor
 - mellow nozzle
 - full-metal heatbreak
-- Bigtreetech TMC2209 v1.2 stepper drivers
-- Soon:
-  - ADXL345 accelerometer, (https://www.klipper3d.org/Measuring_Resonances.html)
+- Bigtreetech TMC2209 v1.2 stepper drivers, in legacy mode
+- Energetic flexible spring steel & PEI sheet
+- ADXL345 accelerometer, (https://www.klipper3d.org/Measuring_Resonances.html)
 - At some point, maybe:
-  - Improvements for Z-wobbling: miagi, cobra
-  - PEI sheet
+  - Improvements for Z-banding: miagi, cobra
+  - Side bed cable mod
+  - Aluminium bed
+
 
 ### Printed mods
   - fan shroud, (https://www.thingiverse.com/thing:3972011)
@@ -58,6 +60,7 @@ My notes, tips, and setup for 3d printing
 
 ## Leveling process
 - heat up the bed and wait for a few minutes
+- PROBE_CALIBRATE
 - take A5 sized copy paper
 - close the gap between the nozzle and the bed until you can still move the paper by pulling, but can't move the paper by pushing without it curling up
 

@@ -1,5 +1,6 @@
+```mermaid
 graph TB
-    Klipper1("Klipper #1") 
+    Klipper1("Klipper #1")
     Klipper1 --> pid
     pid["PID_CALIBRATE"]
     pid --> A["z offset: PROBE_CALIBRATE"]
@@ -20,12 +21,12 @@ graph TB
     Temp -.-> Estep2["e-steps"] -.-> Flow
     Retr --> Calib["Voron or XYZ cube"]
     Calib --> Klip2("Klipper #2")
-        
+
     %%Calib --> Adxl
     Klip3("Klipper #2")
     Klip3 --> Adxl
     Adxl>"Accelerometer (ADXL345)?"]
-    Adxl -->|yes| RES["resonance compensation"] 
+    Adxl -->|yes| RES["resonance compensation"]
     Adxl -->|no| PA["pressure advance"] --> RES
     RES --> PA2["pressure advance"]
     PA2 --> Rdy("All done!")
@@ -36,3 +37,4 @@ graph TB
     %%class Klip2,Klip3 one;
     class ST,ST1 one;
     class Flow,Temp,Retr,Calib one;
+```

@@ -15,10 +15,10 @@ graph TB
     %%Esteps --> ST
 
     ST("Tuning in slicer")
-    ST --> Flow["flowrate: calibration cube"]
+    ST --> Flow["flowrate"]
     Flow --> Temp["temperature tower"]
     Temp --> Retr["retraction"]
-    Temp -.-> Estep2["e-steps"] -.-> Flow
+    %%Temp -.-> Estep2["e-steps"] -.-> Flow
     Retr --> Calib["Voron or XYZ cube"]
     Calib --> Klip2("Klipper #2")
 

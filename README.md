@@ -13,7 +13,8 @@ My notes, tips, and setup for 3d printing
 - [Misc tips](#misc-tips)
 - [Useful links](#useful-links)
 - [Calibration flowchart](#calibration-flowchart)
-- [Cobra versions](#cobra-versions)
+- [Filament flowchart](#filament-flowchart)
+
 
 <tiny><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></tiny>
 
@@ -31,7 +32,8 @@ My notes, tips, and setup for 3d printing
 - 3DTouch leveling sensor
 - mellow nozzle
 - full-metal heatbreak
-- Bigtreetech TMC2209 v1.2 stepper drivers, in legacy mode
+- Bigtreetech TMC2209 v1.2 stepper drivers, in uart mode
+  - [A guide for uart mode by @Dan;#1256](https://docs.google.com/document/d/1MyUdEjQ_6hr7yFaBdw0NXcICgTD9j5_0CI363yzLEuU/edit)
 - Energetic flexible spring steel & PEI sheet
 - ADXL345 accelerometer, (https://www.klipper3d.org/Measuring_Resonances.html)
 - At some point, maybe:
@@ -54,7 +56,7 @@ My notes, tips, and setup for 3d printing
 - [Klipper](https://www.klipper3d.org/Overview.html)
   - pressure advance, input shaping, auto bed leveling
   - [Clank's config used as the base](https://github.com/Clank50AE/Clanks-Klipper-Configs)
-- [Mainsail](https://docs.mainsail.xyz/)
+  - both [Mainsail](https://docs.mainsail.xyz/) and Fluidd installed
 - [SuperSlicer](https://github.com/supermerill/SuperSlicer/releases)
 
 
@@ -73,7 +75,7 @@ My notes, tips, and setup for 3d printing
 
 ## Printing with PETG
 - spread gluestick to bed, dilute with water if needed
-- increase the gap between nozzle and bed 
+- increase the gap between nozzle and bed
 - bed temperature: first layer 80C, others 70C
 - nozzle temperature >230C
 - decrease part cooling
@@ -88,14 +90,8 @@ My notes, tips, and setup for 3d printing
 
 ## Calibration flowchart
 Flowchart was done using [Mermaid](https://mermaid-js.github.io/mermaid-live-editor/).
-![](./mermaid.png)
+![](./mermaid/mermaid.png)
 
-## Cobra versions
-
-| Author 	| Link 	| Genius 	| SW 	| Extra rod 	|
-|-	|-	|:-:	|:-:	|:-:	|
-| Maalie 	| https://www.thingiverse.com/thing:4734286 	| x 	|  	| - 	|
-| McAbbe 	| https://www.thingiverse.com/thing:4808040 	|  	| x 	| x 	|
-| papstFish 	| https://www.thingiverse.com/thing:4734390 	|  	| x 	| x 	|
-| pseudo6626 	| https://www.thingiverse.com/thing:4725503 	|  	| x 	| - 	|
-| 3DChanh: "Stage 1 Z-Axis Brace" 	| https://www.thingiverse.com/thing:4375609 	|  	| x 	|  	|
+## Filament flowchart
+My procedure for tuning new filament
+![](./mermaid/mermaid-filament.png)

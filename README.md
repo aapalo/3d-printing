@@ -83,6 +83,11 @@ My notes, tips, and setup for 3d printing
 ## Misc tips
 - [Tape out the 5V line from Pi to mainboard](https://community.octoprint.org/t/put-tape-on-the-5v-pin-why-and-how/13574)
 - Detach the 2-wired reset connector between TFT and mainboard: when flashing (Marlin) firmware, keep the reset button pressed to keep the TFT off
+- After changing nozzle/hotend
+  - Heat up to 230C, loosen nozzle, tighten heat block, tighten nozzle
+  - PROBE\_CALIBRATE, TESTZ Z=-1 etc, ACCEPT, SAVE\_CONFIG
+  - PID\_CALIBRATE HEATER=extruder TARGET=200, if needed, with fan on
+  - heat up the bed and G29
 
 ## Useful links
 - [Setting up your new Artillery 3D printer](https://artillery.n3t.ro/setup.html)

@@ -2,15 +2,8 @@
 graph TB
   Klip("Klipper")
 
-  NF("New filament")
-  NF --> Flow["flowrate"]
-  Flow --> Temp["temperature tower"]
-  Retr["retraction"]
-  %%Temp -.-> Estep2["e-steps"] -.-> Flow
-  PA["pressure advance"]
-  Temp --> PA
-  PA --> Retr
-  Retr --> Check["Test-print (Cube, Benchie, Swatch ...)"]
+  NF("New hotend/nozzle")
+  NF --> 
 
   Slicer("Slicer")
   %% stroke-dasharray: 10 3

@@ -30,7 +30,7 @@ My notes, tips, and setup for 3d printing
 ### Hardware
 - Raspberry Pi 3 Model B Rev 1.2
 - 3DTouch leveling sensor
-- mellow nozzle
+- mellow/trianglelab nozzle
 - full-metal heatbreak
 - Bigtreetech TMC2209 v1.2 stepper drivers, in uart mode
   - [A guide for uart mode by @Dan;#1256](https://docs.google.com/document/d/1MyUdEjQ_6hr7yFaBdw0NXcICgTD9j5_0CI363yzLEuU/edit)

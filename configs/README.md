@@ -1,5 +1,5 @@
 ## Configuration files
 
 - `printer.cfg`, klipper 
-- `SuperSlicer_config_bundle.ini`, 
+- `SuperSlicer_config_bundle.ini`, SuperSlicer -> Export -> "Export Config Bundle With Physical Printers..."
 - 

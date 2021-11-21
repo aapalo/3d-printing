@@ -15,7 +15,7 @@ right_arm_dist = 80;
 
 hexcut = 0;
 
-case = 3; // 1 left, 2 right, 3 both, 4 print, 5 hex pattern
+case = 3; // 1 left, 2 right, 3 both, 4 print, 5 hex pattern only
 ptfe = 0;
 
 module rod(x,y,diam,height,p=poly) {

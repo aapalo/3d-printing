@@ -45,7 +45,6 @@ My notes, tips, and setup for 3d printing
 ### Printed mods
   - fan shroud, (https://www.thingiverse.com/thing:3972011)
     - mount and calibration disk, (https://www.thingiverse.com/thing:3716043)
-  - z rod supports, (https://www.thingiverse.com/thing:4444589)
   - cable protector, (https://www.thingiverse.com/thing:4295171)
   - cable ribbon clamp, (https://www.thingiverse.com/thing:4281143)
   - bed cable strain relief, (https://www.prusaprinters.org/prints/55642-genius-zx-adjustable-bed-cable-strain-relief)

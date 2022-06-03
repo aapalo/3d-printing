@@ -38,7 +38,6 @@ My notes, tips, and setup for 3d printing
 - ADXL345 accelerometer, (https://www.klipper3d.org/Measuring_Resonances.html)
 - At some point, maybe:
   - Improvements for Z-banding: miagi, cobra
-  - Side bed cable mod
   - Aluminium bed
 
 
@@ -47,9 +46,10 @@ My notes, tips, and setup for 3d printing
     - mount and calibration disk, (https://www.thingiverse.com/thing:3716043)
   - cable protector, (https://www.thingiverse.com/thing:4295171)
   - cable ribbon clamp, (https://www.thingiverse.com/thing:4281143)
-  - bed cable strain relief, (https://www.prusaprinters.org/prints/55642-genius-zx-adjustable-bed-cable-strain-relief)
   - filament dust filter, (https://www.thingiverse.com/thing:190118)
-  - cable chain
+  - side bed cable mod, (https://www.printables.com/model/54320-artillery-sidewinder-x1-genius-illuminated-bed-cab)
+  - old ones:
+    - bed cable strain relief, (https://www.prusaprinters.org/prints/55642-genius-zx-adjustable-bed-cable-strain-relief)
 
 ### Software
 - [Klipper](https://www.klipper3d.org/Overview.html)
@@ -61,9 +61,14 @@ My notes, tips, and setup for 3d printing
 
 ## Leveling process
 - heat up the bed and wait for a few minutes
-- PROBE_CALIBRATE
+- `PROBE_CALIBRATE`
 - take A5 sized copy paper
-- close the gap between the nozzle and the bed until you can still move the paper by pulling, but can't move the paper by pushing without it curling up
+- close the gap between the nozzle: `TESTZ Z=-.1` with smaller and smaller increments
+- leveling is done when you can still move the paper by pulling, but it curls up when pushed
+- `ACCEPT` and `SAVE_CONFIG` to save the values
+- links:
+  - (https://www.klipper3d.org/Probe_Calibrate.html#calibrating-probe-z-offset)
+  - (https://www.klipper3d.org/Bed_Level.html#the-paper-test)
 
 ## Replacement parts
 - nozzle: volcano
@@ -74,8 +79,8 @@ My notes, tips, and setup for 3d printing
 
 ## Printing with PETG
 - spread gluestick to bed, dilute with water if needed
-- increase the gap between nozzle and bed
-- bed temperature: first layer 80C, others 70C
+- increase the gap between nozzle and bed a bit
+- bed temperature: first layer 80C, others 70C (ie 10C warmer than with PLA)
 - nozzle temperature >230C
 - decrease part cooling
 
